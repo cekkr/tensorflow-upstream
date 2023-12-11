@@ -174,7 +174,7 @@ class RocmComputeCapability {
   bool has_fast_fp16_support() const {
     static constexpr absl::string_view kList[] = {"gfx906", "gfx908", "gfx90a",
                                                   "gfx940", "gfx941", "gfx942",
-                                                  "gfx1030", "gfx1100"};
+                                                  "gfx1030", "gfx1100", "gfx1032"};
     return absl::c_count(kList, gfx_version()) != 0;
   }
 
