@@ -1,3 +1,7 @@
+This forks was created to study the support of gfx1032
+But you can avoid to build an adhoc driver support using this hack: HSA_OVERRIDE_GFX_VERSION=10.3.0
+Settings this environment variable allow you to make behave your gfx1032 as an gfx1030.
+
 <div align="center">
   <img src="https://www.tensorflow.org/images/tf_logo_horizontal.png">
 </div>
